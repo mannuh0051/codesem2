@@ -21,7 +21,7 @@ public:
 
  float drive(float distance){
  mileage += distance;
- cout<<"distance travelled "<<distance<<" total mileage moved"<<mileage<<endl;
+ cout<<"distance travelled "<<distance<<" total mileage moved "<<mileage<<endl;
  }
 
 };
