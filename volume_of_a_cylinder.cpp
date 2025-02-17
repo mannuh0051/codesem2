@@ -11,12 +11,14 @@ public:
  string model;
  float price;
  int mileage;
+//creating a constructor
  car(string a, string b, float c, int d ){
  brand = a;
  model =b;
  price =c;
  mileage =d;
  }
+//function for display
  void display(){
  cout<<"brand:"<<brand<<endl;
  cout<<"model:"<<model<<endl;
