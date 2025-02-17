@@ -1,3 +1,8 @@
+/*
+NAME EMMANUEL KIPKOECH
+REG NO BSE-0169/2024
+PROGRAM FOR BANK ACCOUNT 
+*/
 #include <iostream>
 using namespace std;
 class car{
