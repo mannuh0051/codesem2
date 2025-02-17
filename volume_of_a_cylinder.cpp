@@ -2,6 +2,7 @@
 NAME EMMANUEL KIPKOECH
 REG NO BSE-0169/2024
 PROGRAM FOR BANK ACCOUNT 
+class for class
 */
 #include <iostream>
 using namespace std;
