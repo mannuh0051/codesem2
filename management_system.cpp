@@ -3,7 +3,7 @@ NAME:EMMANUEL KIPKOECH MITEI
 ADM: BSE-05-0169/2024
 TITLE MANAGEMENT SYSTEM
 */
-
+//base class 
 #include <iostream>
 using namespace std;
 
@@ -11,6 +11,7 @@ class person {
 protected:
     string name;
 public:
+//setter and getters initialization 
     void setname(string n) {
         name = n;
     }
@@ -18,7 +19,7 @@ public:
         return name;
     }
 };
-
+//derived class inheriting from base class
 class library_member : public person {
 private:
     int member_id;
