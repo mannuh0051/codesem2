@@ -1,9 +1,11 @@
 services:
   - type: web
     name: pulse-app
-    env: php
-    buildCommand: echo "No build required"
-    startCommand: php -S 0.0.0.0:10000
+    env: docker
+    repo: https://github.com/yourusername/your-repo-name
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./
     envVars:
-      - key: APP_ENV
-        value: production
+      - key: NYOTA_API_SECRET
+        value: 9609e9527bf83db6a8a16626
