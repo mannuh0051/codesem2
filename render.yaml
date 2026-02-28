@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pulse-app
+    env: php
+    buildCommand: echo "No build required"
+    startCommand: php -S 0.0.0.0:10000
+    envVars:
+      - key: APP_ENV
+        value: production
