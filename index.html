@@ -630,11 +630,11 @@
       </div>
       <div class="till-display">
         <div class="till-label">amount to pay</div>
-        <div class="till-amount" id="paymentAmount">Ksh 120</div>
+        <div class="till-amount" id="paymentAmount">Ksh 149</div>
       </div>
       <div id="stkResponse" class="response-message"></div>
       <div style="text-align: center;"><div id="paymentStatusBadge" class="status-badge">● ready</div></div>
-      <button class="primary-btn" id="payNowBtn" onclick="processPayment()">pay now · Ksh <span id="payAmount">120</span></button>
+      <button class="primary-btn" id="payNowBtn" onclick="processPayment()">pay now · Ksh <span id="payAmount">149</span></button>
       <div class="payment-instructions">
         <div class="instruction-step"><span class="step-number">1</span>confirm number</div>
         <div class="instruction-step"><span class="step-number">2</span>click pay now</div>
@@ -662,14 +662,14 @@
 
     // State
     let selectedPlan = '⚡ 1 day';
-    let selectedAmount = 120;
+    let selectedAmount = 149;
     let selectedDays = 1;
     let paymentSuccess = false;          // STRICT: ONLY true after successful payment
     let paymentVerified = false;         // Additional flag to prevent fake success
 
     const plans = [
-      { days: 1, amount: 1, label: '1 day', icon: '⚡' },
-      { days: 3, amount: 200, label: '3 days', icon: '🔥' },
+      { days: 1, amount: 149, label: '1 day', icon: '⚡' },
+      { days: 3, amount: 249, label: '3 days', icon: '🔥' },
       { days: 8, amount: 350, label: '8 days', icon: '✨' },
       { days: 'unlimited', amount: 800, label: 'unlimited', icon: '💫' }
     ];
